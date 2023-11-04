@@ -1,0 +1,65 @@
+/* styles.css */
+
+ul.b {
+    list-style-type: none;
+}
+
+.uno{
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif, "DejaVu Sans", verdana;
+}
+
+.titulo {
+    background-color: rgb(0, 0, 0); /* Green */
+    border: none;
+    color: rgb(91, 218, 13);
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: rgb(91, 218, 13);
+}
+
+.a1, .a2 {
+    font-size: 28px;
+    background-color: rgb(30, 22, 141);
+    border: 2px solid black;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+
+.a1 {
+    background-color: black;
+    color: white;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid black;
+    float: left;
+
+    
+}
+
+.a2 {
+    background-color: yellow;
+    color: black;
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid black;
+    float: left;
+}
+
+.container {
+    flex: auto;
+    width:max-content;
+}
+
+.container .text {
+    background-color: yellow;
+    color: red;
+}
